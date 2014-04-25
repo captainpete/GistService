@@ -17,3 +17,11 @@ desc "Build"
 task :build do
   sh "xcodebuild"
 end
+
+desc "Clean"
+task :clean do
+  sh "xcodebuild clean"
+end
+
+desc "Clean & Build"
+task :default => [:clean, :build]
