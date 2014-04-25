@@ -21,8 +21,8 @@ By default, GistService will post your Gists anonymously, but if you'd like, you
 
     git config --global github.user "your github username"
     git config --global github.token "your github token"
-	
-You can get these values by visiting https://github.com/account and clicking on "Global Git Config."
+
+You can obtain these values on [your Github Settings page, under 'Personal Access Tokens'](https://github.com/settings/applications#personal-access-tokens).
 
 Acknowledgements
 ----------------
